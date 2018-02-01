@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "good_reads/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "good-reads"
+  spec.name          = "good_reads"
   spec.version       = GoodReads::VERSION
   spec.authors       = ["Nelio Carneiro"]
   spec.email         = ["neliojrr@gmail.com"]
 
   spec.summary       = %q{ Ruby gem to comunicate with Goodreads API }
-  spec.homepage      = "http://nelio.me/good-reads"
+  spec.homepage      = "http://nelio.me/good_reads"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
