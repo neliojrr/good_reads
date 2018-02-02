@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    good-reads (0.1.0)
+    good_reads (0.1.0)
       rest-client (~> 2.0.2)
 
 GEM
@@ -43,7 +43,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16.a)
-  good-reads!
+  good_reads!
   rake (~> 10.0)
   rspec (~> 3.0)
 

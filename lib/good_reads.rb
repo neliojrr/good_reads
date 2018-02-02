@@ -1,10 +1,20 @@
-require "good_reads/version"
+require 'good_reads/version'
+require 'good_reads/request'
+require 'good_reads/auth'
 
 module GoodReads
+  class << self
+    include GoodReads::Request
+    include GoodReads::Auth
+
+    attr_accessor :options
+  end
   self.options = {}
 
   def self.new(params = {})
-    true
+    self.options[:api_key] = params[:api_key]
+    self.options[:api_secret] = params[:api_secret]
+    self
   end
 
   # Define a global configuration
