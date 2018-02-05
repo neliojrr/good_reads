@@ -3,6 +3,7 @@ PATH
   specs:
     good_reads (0.1.0)
       rest-client (~> 2.0.2)
+      xml-simple (~> 1.1.5)
 
 GEM
   remote: https://rubygems.org/
@@ -37,6 +38,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.4)
+    xml-simple (1.1.5)
 
 PLATFORMS
   ruby
