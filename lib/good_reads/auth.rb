@@ -9,7 +9,7 @@ module GoodReads
     # No params required
     #
     def auth_user
-      data = request("/auth_user")
+      data = oauth_request("/auth_user")
       data
     end
   end
